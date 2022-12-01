@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+}
+
+.dark-background {
+  background-color: #1f2937;
+}
+
+.header {
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 200px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f9faf8;
+}
+
+.links-list {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  list-style: none;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.links-list a {
+  display: inline;
+  text-decoration: none;
+  color: inherit;
+}
