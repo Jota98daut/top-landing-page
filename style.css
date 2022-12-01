@@ -2,18 +2,21 @@ body {
   margin: 0;
 }
 
+.row {
+  box-sizing: border-box;
+  padding: 0 200px;
+}
+
 .dark-background {
   background-color: #1f2937;
 }
 
 .header {
   display: flex;
-  box-sizing: border-box;
   width: 100%;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 0 200px;
 }
 
 .logo {
@@ -35,4 +38,46 @@ body {
   display: inline;
   text-decoration: none;
   color: inherit;
+}
+
+.hero {
+  display: flex;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  height: 450px;
+  gap: 20px;
+}
+
+.hero-main {
+  font-size: 48px;
+  font-weight: bold;
+  color: #f9faf8;
+  margin: 0;
+}
+
+.hero-secondary {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin: 10px 0;
+}
+
+.image-container {
+  flex: 1;
+  height: 100%;
+  background-color: grey;
+  color: white;
+}
+
+.btn {
+  padding: 10px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  background: none;
+  border: none;
+  border-radius: 10px;
+}
+
+.main-btn {
+  background-color: #3882f6;
+  color: #e5e7eb;
 }
