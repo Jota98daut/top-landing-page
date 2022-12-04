@@ -74,10 +74,11 @@ body {
 }
 
 .btn {
-  padding: 10px 30px;
+  padding: 7px 30px;
   font-size: 18px;
   font-weight: bold;
   background: none;
+  color: inherit;
   border: none;
   border-radius: 10px;
 }
@@ -147,4 +148,23 @@ body {
   font-size: 24px;
   font-weight: bold;
   color: #1f2937;
+}
+
+.inner-div {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3882f6;
+  border-radius: 10px;
+  color: #f9faf8;
+  padding: 50px 130px;
+}
+
+.inner-div p {
+  margin: 0;
+}
+
+.secondary-btn {
+  border: 2px solid #f9faf8;
 }
